@@ -39,6 +39,15 @@
 - **Transformer 解码器（Transformer Decoder）**: 通过与图像特征和目标序列交互生成预测序列。
 - **全连接层（Fully Connected Layer）**: 将解码器输出转换为词汇表中每个字符的概率分布。
 
+## 准确率对比
+
+下表展示了本模型与 [LPRNet_Pytorch](https://github.com/sirius-ai/LPRNet_Pytorch) 在普通车牌数据集和高难度数据集上的准确率对比：
+
+| 数据集类型 | LPRNet_Pytorch 准确率 | 本模型准确率 |
+|------------|----------------------|------------|
+| 普通车牌数据集 | 89.8%                | 98.7%      |
+| 高难度数据集   | 6.4%                | 84.5%     |
+
 ## 数据集
 
 本项目使用 CCPD 和 CRPD 两个数据集的数据整理而成。您可以通过以下链接下载这些数据集：
@@ -123,15 +132,6 @@ python onnx_inference.py --image_path datasets/test/川A023Y9-00017091.jpg --enc
 2. 将 `image_encoder.onnx` 和 `text_decoder.onnx` 文件复制到 `android_demo/LicensePlateRecognition/app/src/main/assets` 目录中。
 3. 在你的 Android 设备或模拟器上构建并运行项目。
 
-
-## 准确率对比
-
-下表展示了本模型与 [LPRNet_Pytorch](https://github.com/sirius-ai/LPRNet_Pytorch) 在普通车牌数据集和高难度数据集上的准确率对比：
-
-| 数据集类型 | LPRNet_Pytorch 准确率 | 本模型准确率 |
-|------------|----------------------|------------|
-| 普通车牌数据集 | 89.8%                | 98.7%      |
-| 高难度数据集   | 6.4%                | 84.5%     |
 
 ## 参考项目
 

@@ -4,6 +4,8 @@
 
 本项目实现了一个基于Transformer架构的中文车牌识别系统。该模型由两个主要部分组成：图像编码器和文本解码器，分别处理车牌图像和预测的车牌文本序列。这些组件集成在一个综合的模型中。
 
+![车牌识别结果](https://github.com/sosopop/chinese-lpr-transformer/blob/main/assets/generated_plates_00000.png)
+
 ## 模型特点
 
 - **高准确率**：在普通车牌数据集和高难度数据集上表现优异。
@@ -13,6 +15,8 @@
 - **通用性**：该架构可用于通用的OCR识别任务，适用于各种文本识别场景。
 
 ## 模型架构
+
+![模型架构图](https://github.com/sosopop/chinese-lpr-transformer/blob/main/assets/model_diagram.png)
 
 ### 图像编码器（ImageEncoder）
 - **骨干网络（Backbone）**: 使用 MobileNetV3_Small 提取车牌图像的高级特征。
@@ -89,17 +93,6 @@ python export.py --model /path/model.pth --output /model_path/
 | 普通车牌数据集 | 0.898                | 0.987      |
 | 高难度数据集   | 0.064                | 0.8447     |
 
-## 贡献
-
-欢迎贡献！请提交拉取请求或打开问题以讨论改进或修复。
-
-## 许可证
-
-本项目基于 MIT 许可证。详见 `LICENSE` 文件。
-
-## 致谢
-
-特别感谢本项目中使用的库和框架的开发者和贡献者。
 
 ## 联系方式
 

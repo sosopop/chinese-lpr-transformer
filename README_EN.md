@@ -1,5 +1,7 @@
 # Chinese License Plate Recognition Model (Based on Transformer End-to-End Architecture)
 
+[简体中文](./README.md) | [English](./README_EN.md)
+
 ## Overview
 
 This project implements a highly accurate Chinese license plate recognition model based on the Transformer architecture. Leveraging advanced deep learning techniques, the model demonstrates outstanding performance in various complex scenarios for license plate recognition tasks.

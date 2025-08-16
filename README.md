@@ -54,9 +54,9 @@
 
 本项目使用 CCPD 和 CRPD 两个数据集的数据整理而成。您可以通过以下链接下载这些数据集：
 
-数据集下载地址：
+数据集下载地址（点过star后才可以下载）：
 
-[百度网盘](https://pan.baidu.com/s/18YfphNe0yQeJrISwtGD_wg?pwd=1d7a) 提取码：`1d7a`
+[百度网盘](https://pan.baidu.com/s/1ydPWkXaQygXq32hOaetSUA?pwd=vy37) 提取码：`vy37`
 
 下载完毕后解压到项目datasets目录下。
 
@@ -66,9 +66,9 @@
 
 - **last_model.pth**: 训练好的模型权重文件。
 
-模型下载地址：
+模型下载地址（点过star后才可以下载）：
 
-[百度网盘](https://pan.baidu.com/s/11WVX91QVwY_0qGdy3mxfBA?pwd=yvzp) 提取码：`yvzp`
+[百度网盘](https://pan.baidu.com/s/1wj39xIOKSeMfc9UazSq3Ag?pwd=788j) 提取码：`788j`
 
 下载完毕后将last_model.pth文件复制到项目checkpoints目录下，可使用onnx_export.py脚本导出ONNX模型文件。
 

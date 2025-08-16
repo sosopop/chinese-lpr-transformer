@@ -55,9 +55,9 @@ The table below compares the accuracy of this model with [LPRNet_Pytorch](https:
 
 This project compiles data from CCPD and CRPD datasets. You can download these datasets from the following links:
 
-Dataset Download Links:
+Dataset Download Links (must press star first):
 
-[Baidu Pan](https://pan.baidu.com/s/18YfphNe0yQeJrISwtGD_wg?pwd=1d7a) Password: `1d7a`
+[Baidu Pan](https://pan.baidu.com/s/1ydPWkXaQygXq32hOaetSUA?pwd=vy37) Password: `vy37`
 
 After downloading, unzip the data into the `datasets` directory of the project.
 
@@ -67,9 +67,9 @@ This project provides pre-trained model files including:
 
 - **last_model.pth**: Pre-trained model weights file.
 
-Model Download Links:
+Model Download Links (must press star first):
 
-[Baidu Pan](https://pan.baidu.com/s/11WVX91QVwY_0qGdy3mxfBA?pwd=yvzp) Password: `yvzp`
+[Baidu Pan](https://pan.baidu.com/s/1wj39xIOKSeMfc9UazSq3Ag?pwd=788j) Password: `788j`
 
 After downloading, copy the `last_model.pth` file into the `checkpoints` directory of the project. You can use the `onnx_export.py` script to export an ONNX model file.
 

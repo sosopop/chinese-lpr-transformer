@@ -55,7 +55,7 @@ The table below compares the accuracy of this model with [LPRNet_Pytorch](https:
 
 This project compiles data from CCPD and CRPD datasets. You can download these datasets from the following links:
 
-Dataset Download Links (must press star first):
+Dataset Download Links (must press ⭐ first):
 
 [Baidu Pan](https://pan.baidu.com/s/1ydPWkXaQygXq32hOaetSUA?pwd=vy37) Password: `vy37`
 
@@ -67,7 +67,7 @@ This project provides pre-trained model files including:
 
 - **last_model.pth**: Pre-trained model weights file.
 
-Model Download Links (must press star first):
+Model Download Links (must press ⭐ first):
 
 [Baidu Pan](https://pan.baidu.com/s/1wj39xIOKSeMfc9UazSq3Ag?pwd=788j) Password: `788j`
 

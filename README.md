@@ -56,7 +56,7 @@
 
 数据集下载地址（点过⭐后才可以下载）：
 
-[百度网盘](https://pan.baidu.com/s/1ydPWkXaQygXq32hOaetSUA?pwd=vy37) 提取码：`vy37`
+[百度网盘](https://pan.baidu.com/s/1tDmDYCxOvdQUCNokJQ5QYg?pwd=udmt) 提取码：`udmt`
 
 下载完毕后解压到项目datasets目录下。
 
@@ -68,7 +68,7 @@
 
 模型下载地址（点过⭐后才可以下载）：
 
-[百度网盘](https://pan.baidu.com/s/1wj39xIOKSeMfc9UazSq3Ag?pwd=788j) 提取码：`788j`
+[百度网盘](https://pan.baidu.com/s/17nZCHUQhF0k1mD012pxJ-g?pwd=i5du) 提取码：`i5du`
 
 下载完毕后将last_model.pth文件复制到项目checkpoints目录下，可使用onnx_export.py脚本导出ONNX模型文件。
 

@@ -57,7 +57,7 @@ This project compiles data from CCPD and CRPD datasets. You can download these d
 
 Dataset Download Links (must press ⭐ first):
 
-[Baidu Pan](https://pan.baidu.com/s/1ydPWkXaQygXq32hOaetSUA?pwd=vy37) Password: `vy37`
+[Baidu Pan](https://pan.baidu.com/s/1tDmDYCxOvdQUCNokJQ5QYg?pwd=udmt) Password: `udmt`
 
 After downloading, unzip the data into the `datasets` directory of the project.
 
@@ -69,7 +69,7 @@ This project provides pre-trained model files including:
 
 Model Download Links (must press ⭐ first):
 
-[Baidu Pan](https://pan.baidu.com/s/1wj39xIOKSeMfc9UazSq3Ag?pwd=788j) Password: `788j`
+[Baidu Pan](https://pan.baidu.com/s/17nZCHUQhF0k1mD012pxJ-g?pwd=i5du) Password: `i5du`
 
 After downloading, copy the `last_model.pth` file into the `checkpoints` directory of the project. You can use the `onnx_export.py` script to export an ONNX model file.
 
